@@ -3,11 +3,16 @@ Register Chatwork Task
 
 ## Install
 
-
+```bash
+git clone git@github.com:kuronekomichael/register-chatwork-task.git
+cd register-chatwork-task
+virtualenv -p `which python2.7` venv
+pip install -r requirements.txt
+```
 
 ## Usage
 
-```
+```bash
 CHATWORK_API_TOKEN="fdsafasldkfjasdkkfaksdka"\
    TASK_ROOM_ID=12345\
    TASK_USER_ID="99988,92882"\
